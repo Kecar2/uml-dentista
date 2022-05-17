@@ -10,13 +10,9 @@ public class ResgistroPacientes {
 
 		for (Paciente p : pacientes) {
 			if (p.getNif().equals(nif)) {
-				ArrayList<Factura> facturas = (ArrayList<Factura>) p.getFacturas();
-				for (Factura f : facturas) {
-					importe = importe + f.calculaImporteFactura();
-				}
+					importe = importe + p.calculaImporteFactura();
 				break;
 			}
-
 		}
 		return importe;
 	}

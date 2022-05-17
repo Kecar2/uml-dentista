@@ -17,4 +17,8 @@ public class Paciente {
 		return facturas;
 	}
 
+	public float calculaImporteFactura() {
+		return 0;
+	}
+
 }
