@@ -21,4 +21,11 @@ public class Paciente {
 		return 0;
 	}
 
+	@Override
+	public String toString() {
+		return "Paciente [nif=" + nif + ", nombre=" + nombre + ", direccion=" + direccion + ", facturas=" + facturas
+				+ "]";
+	}
+
+	
 }

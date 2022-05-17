@@ -20,4 +20,11 @@ public class Factura {
 
 		return importe;
 	}
+
+	@Override
+	public String toString() {
+		return "Factura [numero=" + numero + ", descripcion=" + descripcion + ", fecha=" + fecha + ", lineas=" + lineas
+				+ ", paciente=" + paciente + "]";
+	}
+	
 }
